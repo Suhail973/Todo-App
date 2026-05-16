@@ -3,7 +3,7 @@ import '../css/Todo.css'
 import TodoItem from './TodoItem'
 import TodoFilters from './TodoFilters'
 
-export default () => {
+const Todo = () => {
     const [todoName, setTodoName] = useState("")
     const [todos, setTodos] = useState([
         {
@@ -98,3 +98,4 @@ export default () => {
     )
 }
 
+export default Todo;
